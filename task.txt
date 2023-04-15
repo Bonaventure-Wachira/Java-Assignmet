@@ -1,5 +1,3 @@
-# Java-Assignmet
-
 For this project you will create a hierarchy of five classes to describe various elements of a school setting. 
 Detailed below are the requirements for the variables and methods of each class. You may need to add a few additional variables and/or methods; 
 figuring out what is needed is part of your task with this assignment.

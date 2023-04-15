@@ -1,10 +1,10 @@
-public class PersonPedraza {
+public class PersonWachira {
     private String firstName;
     private String lastName;
 
-    public PersonPedraza(String fName, String lName) {
-        firstName = fName;
-        lastName = lName;
+    public PersonWachira(String fName, String lName) {
+        this.firstName = fName;
+        this.lastName = lName;
     }
 
     public String toString() {

@@ -1,12 +1,12 @@
-public class StudentPedraza extends PersonPedraza {
-    private static int numStudents = 0;
+public class StudentWachira extends PersonWachira {
+    private static int numStudent = 0;
     private int studentId;
     private int level;
 
-    public StudentPedraza(String fName, String lName, int gLevel) {
+    public StudentWachira(String fName, String lName, int gLevel) {
         super(fName, lName);
-        level = (gLevel >= 0 && gLevel <= 12) ? gLevel : 0;
-        studentId = ++numStudents;
+        this.level = (gLevel >= 0 && gLevel <= 12) ? gLevel : 0;
+        this.studentId = ++numStudent;
     }
 
     public int getLevel() {

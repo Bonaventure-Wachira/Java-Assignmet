@@ -1,9 +1,9 @@
-public class TeacherPedraza extends PersonPedraza {
+public class TeacherWachira extends PersonWachira {
     private String course;
 
-    public TeacherPedraza(String fName, String lName, String subject) {
+    public TeacherWachira(String fName, String lName, String subject) {
         super(fName, lName);
-        course = subject;
+        this.course = subject;
     }
 
     public String toString() {
